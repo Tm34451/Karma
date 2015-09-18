@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* Navigation Section */
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;  /*space in between li*/
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
+.introduction h1 {
+    font-size: 3.125rem;
+}
+.introduction h1, .introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.big-button {
+	text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+	width: 120px;
+	color: white;
+	background-color: red;
+	font-size: 13px;
+	cursor: pointer;
+}
+.content .big-button{
+	margin:0 auto;
+}
+.bottom .links li{
+	display: inline-block;
+	margin-left: 25px;
+}
+.icon h2{
+	text-align: center;
+}
+.icon .links li{
+	display: inline-block;
+	margin-left: 50px;
+	float: center;
+	padding-left: 230px;
+}
